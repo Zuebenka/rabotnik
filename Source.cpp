@@ -11,13 +11,14 @@ struct Employee {
     int workedHours;
 
     void input() {
-        cout << "Ââåäèòå ôàìèëèþ: ";
+        setlocale(LC_ALL,"ru");
+        cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã´Ã Ã¬Ã¨Ã«Ã¨Ã¾: ";
         cin >> lastName;
-        cout << "Ñòàæ â ãîäàõ: ";
+        cout << "Ã‘Ã²Ã Ã¦ Ã¢ Ã£Ã®Ã¤Ã Ãµ: ";
         cin >> experience;
-        cout << "Çï çà ÷àñ: ";
+        cout << "Ã‡Ã¯ Ã§Ã  Ã·Ã Ã±: ";
         cin >> hourlyRate;
-        cout << "Êîë-âî ïðîðàáîòàííûõ ÷àñîâ: ";
+        cout << "ÃŠÃ®Ã«-Ã¢Ã® Ã¯Ã°Ã®Ã°Ã Ã¡Ã®Ã²Ã Ã­Ã­Ã»Ãµ Ã·Ã Ã±Ã®Ã¢: ";
         cin >> workedHours;
     }
 
