@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include <fstream>
 
@@ -11,14 +10,14 @@ struct Employee {
     int workedHours;
 
     void input() {
-        setlocale(LC_ALL,"ru");
-        cout << "Ââåäèòå ôàìèëèþ: ";
+        setlocale(LC_ALL, "ru");
+        cout << "Введите фамилию: ";
         cin >> lastName;
-        cout << "Ñòàæ â ãîäàõ: ";
+        cout << "Стаж в годах: ";
         cin >> experience;
-        cout << "Çï çà ÷àñ: ";
+        cout << "Зп за час: ";
         cin >> hourlyRate;
-        cout << "Êîë-âî ïðîðàáîòàííûõ ÷àñîâ: ";
+        cout << "Кол-во проработанных часов: ";
         cin >> workedHours;
     }
 
